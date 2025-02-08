@@ -26,4 +26,4 @@ jobs:
         pip install pytest  # ✅ Ensure pytest is installed
 
     - name: Run tests
-      run: pytest
+      run: pytest tests/
