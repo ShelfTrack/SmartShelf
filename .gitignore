@@ -168,6 +168,8 @@ cython_debug/
 #.idea/
 
 # Auto Committer
+# First chmod +x autocommit.sh
+# Second ./autocommit.sh
 autocommit.sh
 
 # PyPI configuration file
