@@ -1,3 +1,7 @@
 from django.db import models
 
-# Create your models here.
+class Student(models.Model):
+    roll_no = models.CharField(max_length=2)
+    name = models.CharField(max_length=100)
+    div = models.CharField(max_length=2)
+    
