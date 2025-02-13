@@ -18,21 +18,12 @@ ShelfTrack/                     # 🌟 Root Project Directory
 │   │── wsgi.py                   # 🚀 Web Server Gateway Interface
 │   │── asgi.py                   # 🚀 Async Server Gateway Interface (Optional)
 │── frontend/                     # 📂 PyQt6 Frontend
-│   │── main.py                    # 🖥️ PyQt6 Main GUI Application
-│   │── ui/                        # 📂 UI Files (if using .ui XML files)
-│   │   ├── main_window.ui         # 🎨 Qt Designer UI File (Optional)
+│   │── main.py                    # 🖥️ **Single PyQt6 GUI File**
 │   │── assets/                    # 🎨 Icons, Images, and Stylesheets
 │   │   ├── logo.png               # 🖼 Logo for Software
 │   │   ├── styles.qss             # 🎨 Stylesheet for PyQt6
-│   │── components/                # 📂 Reusable UI Components
-│   │   ├── sidebar.py             # 📜 Sidebar Menu (Optional)
-│── database/                     # 📂 Database Files (Optional for SQLite)
-│   │── db.sqlite3                 # 🗄 SQLite Database (If Used)
 │── scripts/                      # 📂 Utility Scripts (Optional)
 │   │── backup.py                  # 🔄 Database Backup Script
-│── docs/                         # 📂 Documentation
-│   │── README.md                  # 📖 Project Overview
-│   │── CONTRIBUTING.md             # 🙌 Contribution Guidelines
 │── .github/                       # 🤖 GitHub Configuration Files
 │   │── workflows/                 # 🔄 GitHub Actions CI/CD
 │   │── dependabot.yml              # 🛠 Dependency Updates
